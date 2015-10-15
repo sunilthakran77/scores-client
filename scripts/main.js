@@ -30,8 +30,8 @@ $.ajax({
         data: datastring,
         success: function(data){
             var main = $('#main'),
-            var i,
-            var j;
+             i,
+             j;
             for (i = 0, j = data.length; i < j; i++) {
 
                   $("#main").append('<div>' + data[i].teams + '</div>');
